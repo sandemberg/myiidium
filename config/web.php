@@ -10,6 +10,7 @@ $config = [
     //'timeZone' => 'America/Natal',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'defaultRoute' => 'myiidium/index', // definido nosso projeto como rota incial
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
