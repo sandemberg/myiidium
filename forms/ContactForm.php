@@ -19,5 +19,6 @@ class ContactForm extends Model
     public function rules()
     {
         return parent::rules();
+        
     }
 }
